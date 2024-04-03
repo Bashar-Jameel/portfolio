@@ -1,0 +1,253 @@
+.foto {
+    height: 20px;
+    width: 20px;
+}
+
+button {
+    background-color: #57be8e;
+    display: flex;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    height: 50%;
+    background-color: #fafafd;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px
+}
+
+nav span {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+nav div {
+    display: flex;
+}
+
+nav img {
+    width: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    ;
+    height: 30px;
+}
+
+Header {
+    padding: 7px;
+    background-color: rgb(244, 240, 240);
+    background: #000563;
+    display: flex;
+    color: #fff;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    justify-content: space-between;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto {
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+    display: block;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.credits img {
+    width: 30px;
+    height: 30px;
+}
+
+.credits {
+    display: flex;
+    align-items: center;
+}
+
+.growth {
+    max-width: 100%;
+    height: auto
+}
+
+.rechts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+
+.feedback {
+    display: flex;
+    background-color: #fff;
+    color: #2597a5;
+    font-size: 20px;
+    margin-left: 5px;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.HI {
+    display: flex;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    background-color: #8cd1ff;
+    color: white;
+    justify-content: right;
+    font-size: small;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+
+}
+
+.th {
+    font-family: Arial;
+}
+
+.contentlinks {
+    max-height: 50%;
+    margin-top: 1rem;
+}
+
+h1 {
+    margin-bottom: 0.5rem;
+}
+
+.contentrecht {
+    background-color: white;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+    margin-top: 20px;
+    width: 30%;
+    display: flex;
+    padding: 14px;
+    padding-top: 30px;
+}
+
+.contentrecht h3 {
+    margin-bottom: 7px;
+}
+
+.progres {
+    display: flex;
+    height: 100%;
+    width: 3%;
+    background-color: #2597a5;
+    border-radius: 5px;
+    margin-right: 57px;
+}
+
+.bar {
+    margin-left: -60px;
+}
+
+.progres {
+    display: flex;
+    justify-content: right;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.kaart {
+    background: #fff;
+    padding: 10px;
+}
+
+tr,
+th {
+    border-bottom: 1px solid black;
+    height: 20px;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid white;
+    text-align: start;
+}
+
+.tabel {
+    background-color: white;
+    align-items: center;
+    display: flex;
+    box-shadow: 0 3px 1px -2px #0003, 0 2px 2px #00000024, 0 1px 5px #0000001f;
+}
+
+td {
+    padding-right: 50px;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: #57be8e;
+    border-collapse: collapse;
+    border-radius: 5px;
+    color: white;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+
+td {
+    padding-right: 50px;
+    padding-top: 20px;
+    padding: 10px;
+    background-color: white;
+    border-collapse: collapse;
+    background-color: #57be8e;
+}
+
+tr:not(tr:last-of-type) th {
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;
+}
